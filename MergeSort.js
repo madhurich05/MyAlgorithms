@@ -1,3 +1,7 @@
+// Worst Case time complexity : O(n log n)
+// Space complexity: O(n) (not in place)
+
+
 function mergeSort(arrToBeSorted) {
 
 let arrLen = arrToBeSorted.length;
