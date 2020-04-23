@@ -1,7 +1,5 @@
 // Google
 function addANumberToArray(a) {
-      let aNum = Number(a.join('')) + 1;
-      let result = Array.from(aNum.toString()).map(Number);
-return result;
+     return Array.from((Number([10,9,9, 5].join('')) + 1).toString()).map(Number);;
 }
 
